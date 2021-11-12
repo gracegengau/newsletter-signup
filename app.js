@@ -60,7 +60,7 @@ app.post("/failure", function(req, res) {
   res.redirect("/");
 });
 
-app.listen(process.evn.PORT || 3000, function() {
+app.listen(process.evv.PORT || 3000, function() {
   console.log("Server is running on port 3000");
 });
 
